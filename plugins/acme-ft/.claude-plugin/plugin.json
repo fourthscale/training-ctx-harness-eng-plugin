@@ -1,0 +1,10 @@
+{
+  "name": "acme-ft",
+  "version": "0.1.0",
+  "description": "Acme feature-team plugin: the shared context and tooling of the team's repositories.",
+  "author": {
+    "name": "Ludovic Raymond",
+    "email": "ludovic.raymond@fourthscale.com"
+  },
+  "license": "PolyForm-Noncommercial-1.0.0"
+}

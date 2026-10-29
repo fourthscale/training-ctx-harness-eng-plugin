@@ -1,0 +1,15 @@
+{
+  "name": "acme",
+  "owner": {
+    "name": "Ludovic Raymond",
+    "email": "ludovic.raymond@fourthscale.com"
+  },
+  "description": "Team plugins for the Acme Context & Harness Engineering training.",
+  "plugins": [
+    {
+      "name": "acme-ft",
+      "source": "./plugins/acme-ft",
+      "description": "Acme feature-team plugin: the shared context and tooling of the team's repositories."
+    }
+  ]
+}
