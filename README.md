@@ -66,8 +66,8 @@ claude --plugin-dir plugins/acme-ft
 .claude-plugin/marketplace.json        # the marketplace: lists the plugins
 plugins/acme-ft/
 ├── .claude-plugin/plugin.json         # plugin manifest (name, version)
-├── hooks/hooks.json                   # SessionStart -> load-ubiquitous-language.sh
-├── hooks/load-ubiquitous-language.sh  # prints the core glossary into the context
+├── hooks/hooks.json                   # SessionStart -> scripts/load-ubiquitous-language.sh
+├── scripts/load-ubiquitous-language.sh # prints the core glossary into the context
 ├── context/ubiquitous-language.md     # the core glossary
 ├── skills/glossary-landing-page/      # a sub-domain glossary, loaded on demand
 ├── skills/write-rule/                 # task: a rule in .claude/rules/
